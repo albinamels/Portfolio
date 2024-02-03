@@ -20,6 +20,7 @@ import movies from "./assets/movies.png";
 import recipes from "./assets/recipes.png";
 import silkRoad from "./assets/silkRoad.png";
 import fakeStore from "./assets/fakeStore.png";
+import weatherDom from "./assets/weatherDom.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -202,6 +203,14 @@ export const projects = [
     url: "https://online-fake-store.netlify.app/",
     github: "https://github.com/albinamels/React-Hooks-FakeShop",
     title: "store app",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    img: weatherDom,
+    url: "https://albinamels.github.io/DOM-WeatherApp/",
+    github: "https://github.com/albinamels/DOM-WeatherApp",
+    title: "weather app",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
 ];
