@@ -4,18 +4,18 @@ import { experience, education } from "../data";
 const About = () => {
   return (
     <section
-      className="bg-[url('https://images.unsplash.com/photo-1483794344563-d27a8d18014e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-left-top bg-cover object-fill py-0"
+      className="bg-[url('https://images.unsplash.com/photo-1483794344563-d27a8d18014e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-no-repeat bg-center bg-cover object-fill py-0"
       id="about"
     >
       <div className="pt-20 align-element">
         <SectionTitle text="about me" />
       </div>
       <div className="align-element">
-        <p className="my-2 text-lg text-slate-600 flex">
-          Self-taught vision-driven, detail-oriented Front-End Developer with 2
-          years of experience specializing in dynamic and user-friendly web
-          applications. Proficient in HTML, CSS, JavaScript, React, I stay
-          up-to-date on emerging technologies.
+        <p className="text-lg text-slate-600 flex">
+          Self-taught and vision-driven Front-End Developer with 2 years of
+          experience specializing in dynamic and user-friendly web applications.
+          Proficient in HTML, CSS, JavaScript, React, I stay up-to-date on
+          emerging technologies.
         </p>
         <p className="my-2 text-lg text-slate-600 flex">
           A responsive communicator and team player, I quickly learn, share
@@ -26,21 +26,24 @@ const About = () => {
           analytical problem-solving to drive success.
         </p>
       </div>
-      <div className="py-4 align-element grid md:grid-cols-2 gap-16">
+      <div className="pb-16 align-element grid md:grid-cols-2 gap-16">
         <article>
           <h4 className="text-xl font-medium text-slate-600 pt-4">
             Experience
           </h4>
           <div className="list-disc mt-3 space-y-2">
             {experience.map((company) => {
-              const { title, info, description } = company;
+              const { id, title, info, description } = company;
               return (
                 <>
-                  <p className="text-md text-slate-600 font-semibold border-t-4 border-stone-300 pt-4">
+                  <p
+                    key={id}
+                    className="text-md text-slate-600 font-semibold border-t-4 border-stone-300 pt-4 mt-4"
+                  >
                     {title}
                   </p>
-                  <p className="text-md  text-slate-600 italic">{info}</p>
-                  <ul className="list-disc text-slate-600 pl-5">
+                  <p className="text-md  text-slate-600 pb-1 italic">{info}</p>
+                  <ul className="list-disc text-slate-600 pl-5 pb-3">
                     {description.map((item, index) => (
                       <li className="pb-1" key={index}>
                         {item}
@@ -56,10 +59,13 @@ const About = () => {
           <h4 className="text-xl font-medium text-slate-600 pt-4">Education</h4>
           <div className="list-disc mt-3 space-y-2">
             {education.map((school) => {
-              const { degree, uni, info } = school;
+              const { id, degree, uni, info } = school;
               return (
                 <>
-                  <p className="text-md text-slate-600 font-semibold border-t-4 border-stone-300 pt-4">
+                  <p
+                    key={id}
+                    className="text-md text-slate-600 font-semibold border-t-4 border-stone-300 pt-4"
+                  >
                     {degree}
                   </p>
                   <p className="text-md text-slate-600 font-semibold">{uni}</p>

@@ -16,6 +16,10 @@ import {
 } from "react-icons/si";
 import { BsFiletypeJson } from "react-icons/bs";
 import { GiGears } from "react-icons/gi";
+import movies from "./assets/movies.png";
+import recipes from "./assets/recipes.png";
+import silkRoad from "./assets/silkRoad.png";
+import fakeStore from "./assets/fakeStore.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -119,6 +123,7 @@ export const skills = [
 
 export const experience = [
   {
+    id: nanoid(),
     title: "CargoFleet | Front-End Developer",
     info: "Chicago, IL | Remote | Mar 2022 - Dec 2023",
     description: [
@@ -130,6 +135,7 @@ export const experience = [
     ],
   },
   {
+    id: nanoid(),
     title: "Yandex | Finance Manager",
     info: "Istanbul, Turkiye | Full-time | Sep 2015 - Dec 2020",
     description: [
@@ -139,6 +145,7 @@ export const experience = [
     ],
   },
   {
+    id: nanoid(),
     title: "Hewlett-Packard | Accountant",
     info: "Moscow, Russia | Full-time | Oct 2013 – Mar 2015",
     description: [
@@ -151,11 +158,13 @@ export const experience = [
 
 export const education = [
   {
+    id: nanoid(),
     degree: "MBA",
     uni: "American University of Central Asia (AUCA)",
     info: "Bishkek, Kyrgyzstan | Jan 2010 - Jun 2012",
   },
   {
+    id: nanoid(),
     degree: "BA in Finance",
     uni: "Moscow Institute of Entrepreneurship and Law",
     info: "Bishkek, Kyrgyzstan | Sep 2003 - Jun 2007",
@@ -165,26 +174,34 @@ export const education = [
 export const projects = [
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "first project",
+    img: silkRoad,
+    url: "https://blue-treasures.netlify.app/",
+    github: "https://github.com/albinamels/Blue-Treasures",
+    title: "travel agency",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "second project",
+    img: movies,
+    url: "https://albina-movies-app.netlify.app/",
+    github: "https://github.com/albinamels/React-ClassComp-MoviesApp",
+    title: "movies app",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
     id: nanoid(),
-    img: "https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800",
-    url: "https://react-projects.netlify.app/",
-    github: "https://github.com/john-smilga",
-    title: "third project",
+    img: recipes,
+    url: "https://albina-recipes.netlify.app/",
+    github: "https://github.com/albinamels/React-Router-RecipesApp",
+    title: "recipes app",
+    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+  },
+  {
+    id: nanoid(),
+    img: fakeStore,
+    url: "https://online-fake-store.netlify.app/",
+    github: "https://github.com/albinamels/React-Hooks-FakeShop",
+    title: "store app",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
 ];
