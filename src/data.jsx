@@ -117,6 +117,51 @@ export const skills = [
   },
 ];
 
+export const experience = [
+  {
+    title: "CargoFleet | Front-End Developer",
+    info: "Chicago, IL | Remote | Mar 2022 - Dec 2023",
+    description: [
+      "Utilized React and Redux Toolkit to create 50+ responsive management tools, ensuring product functionality, alignment with design specs, and enhancing customer satisfaction.",
+      "Refactored code by transitioning class components to functional components, leveraging React Hooks for improved maintainability, performance optimization.",
+      "Optimized application performance by integrating React Router lazy loading feature, resulting in a notable 15% decrease in average page load duration.",
+      "Collaborated with the Back-End team to implement client-side pagination in REST API, reducing response times and boosting API efficiency, resulting in a 30% increase in positive user feedback.",
+      "Engaged in collaborative teamwork alongside a group of seven developers, utilizing Agile methodologies in Jira.",
+    ],
+  },
+  {
+    title: "Yandex | Finance Manager",
+    info: "Istanbul, Turkiye | Full-time | Sep 2015 - Dec 2020",
+    description: [
+      "Managed intercompany relations within Yandex Group, overseeing budgeting, forecasting, and financial transactions for compliance with regulations and tax requirements.",
+      "Aligned client agreement templates with Turkish tax regulations, collaborating with the corporate legal department. Achieved an 85% reduction in Stamp tax amount through the update.",
+      "Enhanced profitability by 25% through the optimization of margin calculation procedures. This involved the strategic application of double tax treaties and the revision of corporate standards.",
+    ],
+  },
+  {
+    title: "Hewlett-Packard | Accountant",
+    info: "Moscow, Russia | Full-time | Oct 2013 – Mar 2015",
+    description: [
+      "Ensured compliance and security by overseeing audits, database backups, and supporting month-end and year-end close processes.",
+      "Established and upheld accounting controls by developing and recommending policies and procedures.",
+      "Recorded financial transactions and maintained accuracy through meticulous data entry and reconciliation.",
+    ],
+  },
+];
+
+export const education = [
+  {
+    degree: "MBA",
+    uni: "American University of Central Asia (AUCA)",
+    info: "Bishkek, Kyrgyzstan | Jan 2010 - Jun 2012",
+  },
+  {
+    degree: "BA in Finance",
+    uni: "Moscow Institute of Entrepreneurship and Law",
+    info: "Bishkek, Kyrgyzstan | Sep 2003 - Jun 2007",
+  },
+];
+
 export const projects = [
   {
     id: nanoid(),
