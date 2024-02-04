@@ -3,17 +3,23 @@ import { TbWorldWww } from "react-icons/tb";
 
 const ProjectCard = ({ url, img, github, title, text }) => {
   return (
-    <article className="bg-stone-200 rounded-lg shadow-md hover:shadow-xl duration-300">
-      <img src={img} alt="title" className="w-full object-cover rounded-t-lg" />
-      <div className="capitalize px-8 py-4 text-slate-700">
-        <h2 className="text-xl pb-3 border-b-2 border-stone-400">{title}</h2>
+    // <article className=" rounded-lg hover:shadow-xl duration-300">
+    <article className="grid lg:grid-cols-2 gap-x-20 gap-10 my-10">
+      <img
+        src={img}
+        alt="title"
+        className="w-full object-cover rounded-lg shadow-xl"
+      />
+      <div className=" px-1  text-slate-700">
+        <h2 className="text-xl pb-3 border-b-2 capitalize">{title}</h2>
         <p className="mt-3 ">{text}</p>
-        <div className="mt-5 mb-3 flex justify-center gap-x-20">
+        <div className="mt-5 mb-3 flex gap-x-10">
           <a href={url} target="blank">
-            <TbWorldWww className="h-8 w-8 text-stone-600   hover:text-teal-500 duration-300" />
+            <TbWorldWww className="h-8 w-8 text-stone-500 hover:text-teal-500 duration-300" />
           </a>
+
           <a href={github} target="blank">
-            <FaGithub className="h-8 w-8 text-stone-600 hover:text-teal-500 duration-300 " />
+            <FaGithub className="h-8 w-8 text-stone-500 hover:text-teal-500 duration-300 " />
           </a>
         </div>
       </div>

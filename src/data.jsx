@@ -142,7 +142,7 @@ export const experience = [
     description: [
       "Managed intercompany relations within Yandex Group, overseeing budgeting, forecasting, and financial transactions for compliance with regulations and tax requirements.",
       "Aligned client agreement templates with Turkish tax regulations, collaborating with the corporate legal department. Achieved an 85% reduction in Stamp tax amount through the update.",
-      "Enhanced profitability by 25% through the optimization of margin calculation procedures. This involved the strategic application of double tax treaties and the revision of corporate standards.",
+      "Enhanced profitability by 25% through the optimization of margin calculation procedures. This involved the strategic application of double tax treaties and the revision of corporate policies.",
     ],
   },
   {
@@ -167,7 +167,7 @@ export const education = [
   {
     id: nanoid(),
     degree: "BA in Finance",
-    uni: "Moscow Institute of Entrepreneurship and Law",
+    uni: "Institute of Entrepreneurship and Law",
     info: "Bishkek, Kyrgyzstan | Sep 2003 - Jun 2007",
   },
 ];
@@ -175,10 +175,10 @@ export const education = [
 export const projects = [
   {
     id: nanoid(),
-    img: silkRoad,
-    url: "https://blue-treasures.netlify.app/",
-    github: "https://github.com/albinamels/Blue-Treasures",
-    title: "travel agency",
+    img: fakeStore,
+    url: "https://online-fake-store.netlify.app/",
+    github: "https://github.com/albinamels/React-Hooks-FakeShop",
+    title: "store app",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
   {
@@ -197,13 +197,14 @@ export const projects = [
     title: "recipes app",
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
   },
+
   {
     id: nanoid(),
-    img: fakeStore,
-    url: "https://online-fake-store.netlify.app/",
-    github: "https://github.com/albinamels/React-Hooks-FakeShop",
-    title: "store app",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    img: silkRoad,
+    url: "https://blue-treasures.netlify.app/",
+    github: "https://github.com/albinamels/Blue-Treasures",
+    title: "travel agency",
+    text: "This is a landing page for a travel agency with fully responsive UI. Tech stack used in this project: React.js, Netlify",
   },
   {
     id: nanoid(),
