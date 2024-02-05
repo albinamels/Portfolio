@@ -175,11 +175,19 @@ export const education = [
 export const projects = [
   {
     id: nanoid(),
+    img: recipes,
+    url: "https://albina-recipes.netlify.app/",
+    github: "https://github.com/albinamels/React-Router-RecipesApp",
+    title: "recipes app",
+    text: "This is a recipe-finding application developed using React.js, integrating React Router for smooth navigation and Reactstrap for UI design. It utilizes asynchronous data fetching for efficiency and implements local storage to ensure seamless access to preferred settings across sessions. Additionally, login functionality has been implemented for user engagement and personalization. The app is deployed via Netlify.",
+  },
+  {
+    id: nanoid(),
     img: fakeStore,
     url: "https://online-fake-store.netlify.app/",
     github: "https://github.com/albinamels/React-Hooks-FakeShop",
     title: "store app",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    text: "This is an online store application developed using React.js with Reactstrap for UI design. It utilizes asynchronous data fetching for efficiency and implements local storage to ensure seamless access to preferred settings across sessions. The app is deployed via Netlify.",
   },
   {
     id: nanoid(),
@@ -187,15 +195,7 @@ export const projects = [
     url: "https://albina-movies-app.netlify.app/",
     github: "https://github.com/albinamels/React-ClassComp-MoviesApp",
     title: "movies app",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
-  },
-  {
-    id: nanoid(),
-    img: recipes,
-    url: "https://albina-recipes.netlify.app/",
-    github: "https://github.com/albinamels/React-Router-RecipesApp",
-    title: "recipes app",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    text: "This is a movie application developed with React Class Components and React Hooks, integrating Reactstrap for UI design. Utilized Axios for efficient data fetching and implemented local storage for seamless access to preferred locations and settings across sessions. The app is deployed via Netlify.",
   },
 
   {
@@ -204,7 +204,7 @@ export const projects = [
     url: "https://blue-treasures.netlify.app/",
     github: "https://github.com/albinamels/Blue-Treasures",
     title: "travel agency",
-    text: "This is a landing page for a travel agency with fully responsive UI. Tech stack used in this project: React.js, Netlify",
+    text: "This is a landing page for a travel agency with fully responsive UI created in React.js. The application is deployed via Netlify to ensure accessibility and user engagement across devices.",
   },
   {
     id: nanoid(),
@@ -212,6 +212,6 @@ export const projects = [
     url: "https://albinamels.github.io/DOM-WeatherApp/",
     github: "https://github.com/albinamels/DOM-WeatherApp",
     title: "weather app",
-    text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.",
+    text: "This is a weather app created with HTML, CSS, and JavaScript, utilizing DOM manipulation and asynchronous fetching of real-time weather data for a better user experience. Additionally, local storage is implemented for easy access to preferred locations and settings across sessions. The app is deployed via GitHub Pages.",
   },
 ];
