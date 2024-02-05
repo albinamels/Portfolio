@@ -1,4 +1,4 @@
-### Welcome to my portfolio website! Here, you can get to know me better and explore my projects https://albinamels.netlify.app/#home
+### Welcome to my portfolio website! Here, you can get to know me better and explore my projects https://albinamels.netlify.app/
 
 ![Home Page](https://github.com/albinamels/Portfolio/blob/main/public/home-page.png)
 
