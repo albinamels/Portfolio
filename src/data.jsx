@@ -21,6 +21,7 @@ import recipes from "./assets/recipes.png";
 import silkRoad from "./assets/silkRoad.png";
 import fakeStore from "./assets/fakeStore.png";
 import weatherDom from "./assets/weatherDom.png";
+import photos from "./assets/photos.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -188,6 +189,14 @@ export const projects = [
     github: "https://github.com/albinamels/React-Hooks-FakeShop",
     title: "store app",
     text: "This is an online store application developed using React.js with Reactstrap for UI design. It utilizes asynchronous data fetching for efficiency and implements local storage to ensure seamless access to preferred settings across sessions. The app is deployed via Netlify.",
+  },
+  {
+    id: nanoid(),
+    img: photos,
+    url: "https://albina-photos.netlify.app/",
+    github: "https://github.com/albinamels/React-Hooks-PhotoApp",
+    title: "photos app",
+    text: "This is an app to search photos created in React with Pagination and Debounce features. Pagination optimizes site performance by loading smaller data chunks, leading to faster page loading times and smoother navigation. Debouncing prevents frequent, time-consuming data fetching calls, enhancing overall user experience.",
   },
   {
     id: nanoid(),
