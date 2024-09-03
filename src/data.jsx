@@ -22,6 +22,7 @@ import silkRoad from "./assets/silkRoad.png";
 import fakeStore from "./assets/fakeStore.png";
 import weatherDom from "./assets/weatherDom.png";
 import photos from "./assets/photos.png";
+import restaurant from "./assets/restaurant.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -176,8 +177,16 @@ export const education = [
 export const projects = [
   {
     id: nanoid(),
-    img: recipes,
+    img: restaurant,
     url: "https://albina-recipes.netlify.app/",
+    github: "https://github.com/albinamels/Crepe-Shop",
+    title: "restaurant website",
+    text: "This project is a fully responsive website for my friend's small family business — a crepe shop — using HTML, CSS, and JavaScript. The site features real data and photos, providing a modern and interactive user experience. Designed to be compatible across all devices, the website ensures seamless navigation on both mobile and desktop platforms. The project is deployed via Netlify.",
+  },
+  {
+    id: nanoid(),
+    img: recipes,
+    url: "https://blinblin.netlify.app/",
     github: "https://github.com/albinamels/React-Router-RecipesApp",
     title: "recipes app",
     text: "This is a recipe-finding application developed using React.js, integrating React Router for smooth navigation and Reactstrap for UI design. It utilizes asynchronous data fetching for efficiency and implements local storage to ensure seamless access to preferred settings across sessions. Additionally, login functionality has been implemented for user engagement and personalization. The app is deployed via Netlify.",
@@ -213,7 +222,7 @@ export const projects = [
     url: "https://blue-treasures.netlify.app/",
     github: "https://github.com/albinamels/Blue-Treasures",
     title: "travel agency",
-    text: "This is a landing page for a travel agency with fully responsive UI created in React.js. The application is deployed via Netlify to ensure accessibility and user engagement across devices.",
+    text: "This is a travel agency website with fully responsive UI created in React.js. The application is deployed via Netlify to ensure accessibility and user engagement across devices.",
   },
   {
     id: nanoid(),
