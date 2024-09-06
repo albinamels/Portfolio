@@ -23,6 +23,7 @@ import fakeStore from "./assets/fakeStore.png";
 import weatherDom from "./assets/weatherDom.png";
 import photos from "./assets/photos.png";
 import restaurant from "./assets/restaurant.png";
+import winnerO from "./assets/winnerO.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -177,8 +178,16 @@ export const education = [
 export const projects = [
   {
     id: nanoid(),
+    img: winnerO,
+    url: "https://albina-tictactoe.netlify.app",
+    github: "https://github.com/albinamels/React-TicTacToe",
+    title: "Tic-Tac-Toe",
+    text: "This project is a simple Tic-Tac-Toe game built with React using hooks, state management, and some basic algorithms to determine the winner. The game is interactive, allowing two players to play on a 3x3 grid, with a reset button to start a new game.",
+  },
+  {
+    id: nanoid(),
     img: restaurant,
-    url: "https://albina-recipes.netlify.app/",
+    url: "https://blinblin.netlify.app/",
     github: "https://github.com/albinamels/Crepe-Shop",
     title: "restaurant website",
     text: "This project is a fully responsive website for my friend's small family business — a crepe shop — using HTML, CSS, and JavaScript. The site features real data and photos, providing a modern and interactive user experience. Designed to be compatible across all devices, the website ensures seamless navigation on both mobile and desktop platforms. The project is deployed via Netlify.",
@@ -186,7 +195,7 @@ export const projects = [
   {
     id: nanoid(),
     img: recipes,
-    url: "https://blinblin.netlify.app/",
+    url: "https://albina-recipes.netlify.app/",
     github: "https://github.com/albinamels/React-Router-RecipesApp",
     title: "recipes app",
     text: "This is a recipe-finding application developed using React.js, integrating React Router for smooth navigation and Reactstrap for UI design. It utilizes asynchronous data fetching for efficiency and implements local storage to ensure seamless access to preferred settings across sessions. Additionally, login functionality has been implemented for user engagement and personalization. The app is deployed via Netlify.",
